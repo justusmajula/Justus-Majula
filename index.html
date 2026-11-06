@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justus Julius Majula | Power Generation Portfolio</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --secondary: #1e293b;
+            --accent: #2563eb;
+            --text: #334155;
+            --light: #f8fafc;
+            --border: #e2e8f0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background-color: var(--light);
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        header h1 { 
+            margin: 0; 
+            font-size: 2.5rem; 
+            letter-spacing: -0.05em;
+        }
+        header p { 
+            margin: 0.5rem 0 0; 
+            font-size: 1.2rem; 
+            color: #94a3b8; 
+            font-weight: 400;
+        }
+        .container {
+            max-width: 850px;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+        section {
+            background: white;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+        }
+        h2 {
+            color: var(--primary);
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+        .job, .project {
+            margin-bottom: 2rem;
+        }
+        .job:last-child, .project:last-child {
+            margin-bottom: 0;
+        }
+        .job-title, .project-title {
+            font-weight: 700;
+            color: var(--primary);
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .date { 
+            color: #64748b; 
+            font-weight: normal; 
+            font-size: 0.9rem; 
+        }
+        .company { 
+            color: var(--accent); 
+            font-weight: 600; 
+            font-size: 1rem; 
+            margin-bottom: 0.5rem; 
+        }
+        .location-tag {
+            color: #64748b;
+            font-size: 0.9rem;
+            font-weight: normal;
+        }
+        ul { 
+            padding-left: 1.25rem; 
+            margin: 0.5rem 0; 
+        }
+        li { 
+            margin-bottom: 0.5rem; 
+        }
+        .skills-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        .skill-tag {
+            background: #eff6ff;
+            color: var(--accent);
+            padding: 0.4rem 0.8rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            border: 1px solid #bfdbfe;
+        }
+        .btn {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+        .btn:hover { 
+            background: #1d4ed8; 
+        }
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .contact-item {
+            font-size: 0.95rem;
+        }
+        .contact-item strong {
+            color: var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Justus Julius Majula</h1>
+    <p>Power Generation Supervisor & Field Service Engineer</p>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>Professional Summary</h2>
+        <p>Results-driven Professional Engineer with 5 years of dedicated experience specializing in mechanical and electrical power generation across Southern and East Africa. Proven track record in maximizing operational reliability through advanced root-cause diagnostics, rigorous commissioning schedules, and strict safety compliance in complex industrial and heavy fuel environments.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Core Expertise</h2>
+        <div class="skills-grid">
+            <span class="skill-tag">Genset Installation & Synchronization</span>
+            <span class="skill-tag">Multi-Unit Parallel Setups</span>
+            <span class="skill-tag">Cummins INSITE Diagnostic Software</span>
+            <span class="skill-tag">Cummins InPower & DSE Control Systems</span>
+            <span class="skill-tag">ComAp InteliATS2 Systems</span>
+            <span class="skill-tag">Root Cause Diagnostics & Troubleshooting</span>
+            <span class="skill-tag">Commissioning Schedules & Field Leadership</span>
+            <span class="skill-tag">Heavy Mobile Equipment (HME) Control Interfaces</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Key Projects & Accomplishments</h2>
+        
+        <div class="project">
+            <div class="project-title">4x QSZ 550kVA Genset Installation & Synchronization <span class="date">Harare, Zimbabwe</span></div>
+            <div class="company">Watercom Site Project</div>
+            <ul>
+                <li>Managed the critical layout execution, rigging oversight, and high-voltage electrical architecture interface for a 4-unit parallel setup.</li>
+                <li>Programmed and verified synchronization timelines and active load-sharing frameworks under variable site demand structures.</li>
+            </ul>
+        </div>
+
+        <div class="project">
+            <div class="project-title">QSX 500kVA Genset System Integration <span class="date">Dar es Salaam, Tanzania</span></div>
+            <div class="company">Mwanga Tower Site Project</div>
+            <ul>
+                <li>Supervised the complete field installation, electronic parameter calibration, and functional testing of high-capacity QSX systems.</li>
+                <li>Conducted advanced diagnostic profiling and performance verification to guarantee absolute operational continuity for commercial infrastructure.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        
+        <div class="job">
+            <div class="job-title">Senior Field Service Engineer <span class="date">2020 — Present</span></div>
+            <div class="company">Car & General Trading Limited <span class="location-tag">| East Africa</span></div>
+            <ul>
+                <li>Lead remote field technician teams in execution of complex diagnostics, component overhauls, and software calibration matrices on industrial diesel infrastructure.</li>
+                <li>Direct commissioning operations, preventative maintenance programs, and emergency critical failure responses.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education & Credentials</h2>
+        <div class="job">
+            <div class="job-title">Bachelor of Engineering in Automotive Engineering Technology <span class="date">2017 — 2021</span></div>
+            <div class="company">National Institute of Transport (NIT) <span class="location-tag">| Tanzania</span></div>
+        </div>
+        <div class="job">
+            <div class="job-title">Registered Graduate Engineer <span class="date">Credentialed</span></div>
+            <div class="company">Engineers Registration Board (ERB) <span class="location-tag">| Tanzania</span></div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact & Logistics</h2>
+        <p>Available for domestic and international deployment configurations, with extensive operational execution exposure in challenging environments.</p>
+        <div class="contact-info">
+            <div class="contact-item"><strong>Current Location:</strong> Tanzania</div>
+            <div class="contact-item"><strong>Mobility:</strong> Open to Regional / Seychelles Deployment</div>
+        </div>
+        <br>
+        <!-- Place your PDF file in the same GitHub repository folder and link it here -->
+        <a href="Justus_Majula_CV.pdf" class="btn" target="_blank" download>Download Printable CV (PDF)</a>
+    </section>
+</div>
+
+</body>
+</html>
